@@ -1,0 +1,24 @@
+--key1>val1--key2>val2
+--key1>val1--key2>val2
+
+
+const ReadData = fs.readFile(path, "utf-8", (err, data) => {
+  ticketData = JSON.parse(data);
+  //ticketData = data;
+  if (err) {
+    console.log(err);
+    return;
+  }
+});
+
+const data = JSON.parse(ReadData);
+
+// reading tickets.json (database)
+fs.readFile(path, "utf-8", (err, data) => {
+  ticketData = JSON.parse(data);
+  //ticketData = data;
+  if (err) {
+    console.log(err);
+    return;
+  }
+});

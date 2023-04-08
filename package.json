@@ -1,0 +1,26 @@
+{
+  "name": "project",
+  "version": "1.0.0",
+  "description": "phase one",
+  "main": "app.js",
+  "scripts": {
+    "test": "node test.js",
+    "dev": "nodemon test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kwentin-Ransom/cmps415-project.git"
+  },
+  "author": "kwentin-ransom",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kwentin-Ransom/cmps415-project/issues"
+  },
+  "homepage": "https://github.com/Kwentin-Ransom/cmps415-project#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
